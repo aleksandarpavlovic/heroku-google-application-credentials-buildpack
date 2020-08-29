@@ -11,7 +11,11 @@ This is useful when using a package such as [@google-cloud/storage](https://www.
 The script with generate a file called `google-credentials.json` which holds the key from the step #1 above.
 
 To add to your application, run:
-
+old:
 ```
 heroku buildpacks:set https://github.com/buyersight/heroku-google-application-credentials-buildpack.git -a your-app-name
+```
+new:
+```
+heroku buildpacks:set https://github.com/aleksandarpavlovic/heroku-google-application-credentials-buildpack.git -a your-app-name
 ```
